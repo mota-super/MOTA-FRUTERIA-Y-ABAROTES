@@ -1,0 +1,119 @@
+/* se define el color del cuerpo de la pagina*/
+body{
+    background: #CEBE67;
+    padding: 1px;
+    border: black;
+    margin: 1px;
+}
+#encabezado{
+    width: 100%;
+}
+/* se define el color del encabezado*/
+header{
+    background: #89D470;
+    display: inline-block;
+    width: 100%;
+}
+/* se le da formato a los botones de navegacion de la pagina*/ 
+nav{
+    float: right;
+    text-align: center;
+    width: 55%;
+} 
+nav ul li{
+    width: 24%;
+    font: bold 16px verdana;
+    color:black;
+    background:#F15F22;
+    display: inline-block;
+    
+}
+/* se define el cuerpo formato y destalles de la seccion quenes somos*/
+#seccionuno{
+    width: 74%;
+    background: #C1D06A;
+    margin: 1px;
+    display: inline-block;
+}
+
+#seccionuno h1{
+    font: bold 35px verdana;
+    color:black;
+    width: 99%;  
+    padding: 0%;
+    margin: 0%;
+}
+.slogan{
+    width: 30%;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+}
+.a3{
+    text-align: center;
+}
+.monomota{
+    width: 40%;
+    float: right;
+}
+/* se define el cuerpo formato y destalles de la seccion lo que ofrecemos*/
+#secciondos{
+    float: right;
+    width: 24%;
+    background: #C1D06A;
+    margin: 2px;
+    padding: 3px;
+    
+}
+/* se define el cuerpo formato y destalles de la seccion conocenos mas*/
+#secciontres{
+    background: #CB9D64;
+    font: small-caps 100%/200% serif;;
+    
+}
+#historia{
+    margin: 1px;
+    width: 65%;
+}
+/* se define el cuerpo formato y destalles de la seccion contactos*/
+#seccioncuatro{
+    background: rgb(151, 91, 207);
+}
+#seccioncuantro h2{
+    padding: 0%;
+}
+/* se define el cuerpo formato y destalles de la seccion de los footers*/
+footer{
+    text-align: center;
+    background: #A4D26D;
+}
+/*formato de la galeria de las imagenes*/
+/*visor o pantalla*/
+#visor { position: absolute; left: 68%; top: 1450px; width: 400px; height: 300px;
+			 background-color:#CB9D64; overflow: hidden;  }
+#visor img { width: 400px; }
+/*foto saliente y foto entrante*/
+#fotoSale { position: absolute; top: 0px; left: 0px; }
+#fotoEntra { position: absolute; top: 0px; left: 0px; }
+/*Elementos al pie de foto*/
+#piefoto { position: absolute; left: 68%; top: 1750px; width: 400px; height: 30px;
+			 background-color: silver; }
+/*controles de cambio de imagen*/
+#controlesre { position: absolute; top: 0px; left: 0px; }
+#controlesav { position: absolute; top: 0px; right: 0px; }
+#controlesre img, #controlesav img { cursor: pointer }
+/*texto de pie de foto*/
+#mititulo { position: absolute; top: 5px; left: 70px; font: normal 12px arial; }
+/*alineacion dentro del documento del la galeria de imageenes*/
+.inicio {
+    float: right;
+position: absolute;left: 97%; top: 137%; width: 2.5%; height: 5%;
+}
+.inicio1 {
+    float: right;
+position: absolute;left: 97%; top: 278%; width: 2.5%; height: 5%;
+}
+.telefono{
+    float: right;
+    position: absolute;left: 65%; top: 280%; width: 30%; height: 57%; 
+}
